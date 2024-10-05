@@ -48,13 +48,13 @@ The dataset used in this project is the **Mall Customers Dataset** available fro
    - Visualize the clusters and centroids for different pairs of features.
 
 5. **DBSCAN Clustering**:
-   - Apply **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** for discovering clusters of varying shapes, along with noise points.
+   - Apply **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** for discovering clusters of varying shapes,along with noise points.
 
 ## Elbow Method for Optimal Clusters
 To find the optimal number of clusters for K-Means, we use the **Elbow Method**, where we:
 - Calculate the **WCSS (Within-Cluster Sum of Squares)** for different values of `k` (number of clusters).
-- Plot WCSS against `k` and identify the "elbow point", which represents the optimal number of clusters.
-- the red star indicates the optimal number of clusters for the given plot
+- Plot WCSS against `k` and identify the "elbow point",which represents the optimal number of clusters.
+- The red star indicates the optimal number of clusters for the given plot.
 ### Elbow Plot
 ![Elbow Plot](https://github.com/Skynerd/Customer_Segmentation_Clustering_Algorithms/blob/main/DemoPlots/WCSS%20vs%20no.%20of%20Clusters%20(the%20elbow%20curves).png)
 ### 1st derivative of WCSS
